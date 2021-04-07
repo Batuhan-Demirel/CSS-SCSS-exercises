@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+  font-family: "Mulish", sans-serif;
+}
+
+* *:focus {
+  outline: 0;
+}
+
+body {
+  background-color: #161e29;
+  padding: 50px;
+}
+
+.component--followers {
+  background-color: #1b2431;
+  border-radius: 10px;
+  padding: 30px;
+  width: 412px;
+  -webkit-box-shadow: 0 10px 20px -20px #081323;
+          box-shadow: 0 10px 20px -20px #081323;
+  margin-bottom: 50px;
+}
+
+.component--followers ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -10px;
+}
+
+.component--followers ul li {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  margin: 0 10px;
+}
+
+.component--followers ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #161e29;
+  padding: 7px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #c9cedf;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.component--followers ul li a img {
+  margin-right: 10px;
+}
+
+.component--user-info {
+  background-color: #1b2431;
+  border-radius: 10px;
+  padding: 39px;
+  width: 344px;
+  -webkit-box-shadow: 0 10px 20px -20px #081323;
+          box-shadow: 0 10px 20px -20px #081323;
+  margin-bottom: 50px;
+}
+
+.component--user-info ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+  color: #c9cedf;
+  margin-bottom: 30px;
+}
+
+.component--user-info ul li:last-child {
+  margin-bottom: 0;
+}
+
+.component--user-info ul li a {
+  color: #587dfb;
+}
+
+.component--user-info ul li .icon {
+  text-align: center;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.component--team {
+  background-color: #1b2431;
+  border-radius: 10px;
+  padding: 40px 40px 50px;
+  width: 503px;
+  -webkit-box-shadow: 0 10px 20px -20px #081323;
+          box-shadow: 0 10px 20px -20px #081323;
+  margin-bottom: 50px;
+}
+
+.component--team h5 {
+  font-size: 22px;
+  color: #c9cedf;
+  margin-bottom: 40px;
+  font-weight: normal;
+}
+
+.component--team ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.component--team ul li:last-child {
+  margin-bottom: 0;
+}
+
+.component--team ul li .team {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+  color: #c9cedf;
+}
+
+.component--team ul li .team img {
+  margin-right: 14px;
+}
+
+.component--team ul li .team-members {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.component--team ul li .team-members a {
+  margin-left: -10px;
+}
+
+.component--team ul li .team-members a img {
+  border: 2px solid #1b2431;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.component--skills {
+  width: 434px;
+}
+
+.component--skills h5 {
+  font-weight: normal;
+  color: #c9cedf;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.component--skills ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: -5px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.component--skills ul li {
+  margin: 5px;
+}
+
+.component--skills ul li a {
+  -webkit-box-shadow: 0 10px 20px -20px #081323;
+          box-shadow: 0 10px 20px -20px #081323;
+  display: block;
+  padding: 15px 20px;
+  background-color: #1b2431;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #c9cedf;
+  -webkit-transition: 300ms background-color;
+  transition: 300ms background-color;
+}
+
+.component--skills ul li a:hover {
+  background-color: #243041;
+}
+/*# sourceMappingURL=index.css.map */
