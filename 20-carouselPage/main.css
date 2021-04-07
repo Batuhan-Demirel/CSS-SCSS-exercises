@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #aaa;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10000;
+    padding: 30px 100px;
+    background-color:rgba(0, 0,0,0.3);
+}
+header .logo{
+    position: relative;
+    color: #fff;
+    font-weight: 700;
+    font-size: 2.5em;
+    text-decoration: none;
+}
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    position: relative;
+    list-style: none;
+    margin-left: 60px;
+}
+header ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+.banner{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+}
+.banner .imgBx{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+.banner .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: 0.5s;
+    background-position: center;
+
+
+}
+.banner .imgBx img.active{
+    opacity: 1;
+}
+.controls{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0px;
+    width: 80px;
+}
+.controls li{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.controls li:hover{
+    background-color:lightgray;
+}
+.controls li:before{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-left: 3px solid #111;
+    border-bottom: 3px solid #111;
+    transform: rotate(45deg);
+
+}
+.controls li:nth-child(2):before{
+    transform: rotate(225deg);
+}
+.contentBx{
+    position: absolute;
+    bottom: 0;
+    max-width: 700px;
+}
+.contentBx div{
+    display: none;
+}
+.contentBx div.active{
+    display: block;
+    padding: 30px;
+    margin: 30px;
+    background-color: rgba(0,0,0,0.2);
+}
+.contentBx div h2{
+    color: white;
+    font-size: 2em;
+
+}
+.contentBx div p{
+    color: white;
+    font-size: 1.2em;
+
+}
+.contentBx div a{
+    color: black;
+    font-size: 1.1em;
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    background-color: white;
+    margin-top: 10px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-left: 350px;
+    transition: 0.2s;
+}
+.contentBx div a:hover{
+    background-color: black ;
+    padding: 7.5px 21px;
+    font-size: 1.3em;
+    color:white;
+}
+/**/
+
+.about{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+}
+
