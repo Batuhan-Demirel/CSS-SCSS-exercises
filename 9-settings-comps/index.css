@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+  font-family: "Mulish", sans-serif;
+}
+
+* *:focus {
+  outline: 0;
+}
+
+body {
+  background-color: #f2f2f2;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.settings-popup {
+  background-color: #fff;
+  padding: 85px 100px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 67px 55px -34px rgba(85, 26, 83, 0.3);
+          box-shadow: 0 67px 55px -34px rgba(85, 26, 83, 0.3);
+  width: 912px;
+}
+
+.settings-popup h3 {
+  font-weight: 900;
+  font-size: 28px;
+  color: #874285;
+  margin-bottom: 55px;
+}
+
+.settings-popup ul li {
+  margin-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.settings-popup ul li:last-child {
+  margin-bottom: 0;
+}
+
+.settings-popup ul li .item h5 {
+  font-size: 20px;
+  font-weight: 900;
+  color: #874285;
+  margin-bottom: 13px;
+}
+
+.settings-popup ul li .item p {
+  font-style: 16px;
+  color: #242e4c;
+  line-height: 22px;
+}
+
+.settings-popup ul li .item select {
+  margin-top: 35px;
+  width: 330px;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px solid #d8dbe6;
+  font-size: 20px;
+  color: #242e4c;
+  padding: 0 20px;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.settings-popup ul li .item select:hover {
+  border-color: #9298ad;
+  color: #030407;
+}
+
+.settings-popup ul li .checkbox-input .checkbox {
+  display: block;
+  width: 66px;
+  height: 37px;
+  border: 2px solid #d8dbe6;
+  border-radius: 37px;
+  position: relative;
+  cursor: pointer;
+}
+
+.settings-popup ul li .checkbox-input .checkbox::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #9298ad;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  -webkit-transition: 300ms left, 300ms background-color;
+  transition: 300ms left, 300ms background-color;
+}
+
+.settings-popup ul li input {
+  display: none;
+}
+
+.settings-popup ul li input:checked + .checkbox::before {
+  left: 33px;
+  background-color: #874285;
+}
+
+.settings-popup hr {
+  height: 1px;
+  background-color: #d8dbe6;
+  margin: 45px 0;
+}
+
+.settings-popup .actions {
+  margin-top: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.settings-popup .actions a {
+  border: 2px solid #d8dbe6;
+  border-radius: 6px;
+  height: 54px;
+  width: 161px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #9298ad;
+}
+
+.settings-popup .actions a:hover {
+  border-color: #9298ad;
+  color: #5d647c;
+}
+
+.settings-popup .actions a:last-child {
+  margin-right: 0;
+}
+
+.settings-popup .actions a.active {
+  background-color: #f34b8c;
+  color: #fff;
+  border-color: #f34b8c;
+}
+/*# sourceMappingURL=index.css.map */
